@@ -1,4 +1,3 @@
-import turtle
 from turtle import Turtle
 
 STARTING_POINT = [(0, 0), (-20, 0), (-40, 0)]
@@ -9,8 +8,7 @@ LEFT = 180
 RIGHT = 0
 
 
-class Snake():
-
+class Snake:
     def __init__(self):
         self.snake_body = []
         self.create_snake()
